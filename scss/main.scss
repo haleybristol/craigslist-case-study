@@ -58,6 +58,7 @@ a {
   .colors {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .orange{
     background: #F46036;
@@ -200,5 +201,48 @@ a {
   .insight {
     width: 700px;
     font-family: 'Josefin Sans', sans-serif;
+  }
+}
+
+.results {
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 100px;
+  }
+  .pagez {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .page {
+    margin-right: 20px;
+  }
+  .landing {
+    background-image: url("../img/landing.png");
+    background-size: cover;
+    height: 900px;
+    width: 500px;
+  }
+  .item {
+    background-image: url("../img/item.png");
+    background-size: cover;
+    height: 498px;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .introduction {
+    margin: 50px;
+    .intro {
+      width: 100%;
+    }
+  }
+
+  .context {
+    margin-top: 80px;
+    margin-left: 0;
+    text {
+      width: 100vw;
+    }
   }
 }
