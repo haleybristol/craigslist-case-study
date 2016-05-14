@@ -172,7 +172,8 @@ a {
   background-image: url("../img/landing.png");
   background-size: cover;
   height: 900px;
-  width: 500px; }
+  width: 500px;
+  margin-bottom: 50px; }
 .results .item {
   background-image: url("../img/item.png");
   background-size: cover;
@@ -189,6 +190,9 @@ a {
     margin-top: 80px;
     margin-left: 0; }
     .context text {
-      width: 100vw; } }
+      width: 100vw; }
+
+  .process .insight {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
