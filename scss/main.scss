@@ -1,0 +1,204 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero-img {
+  background-image: url("../img/bike.jpg");
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    margin: 30px;
+  }
+}
+
+
+
+.title {
+  text-align: center;
+  .line {
+    width: 30vw;
+  }
+}
+
+.introduction {
+  margin: 50px;
+  .intro {
+    width: 600px;
+  }
+}
+
+.context {
+  h2 {
+    text-align: center;
+  }
+  margin-top: 80px;
+  margin-left: 700px;
+  text {
+    width: 300px;
+  }
+}
+
+.style {
+  h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  .colors {
+    display: flex;
+    justify-content: space-between;
+  }
+  .orange{
+    background: #F46036;
+    width: 200px;
+    height: 240px;
+    border: 10px solid lightgray;
+    padding: 20px;
+    }
+  .purp {
+    background: #414770;
+    width: 200px;
+    height: 240px;
+    border: 10px solid lightgray;
+    padding: 20px;
+    color: white;
+  }
+  .brown {
+    background: #311B1B;
+    width: 200px;
+    height: 240px;
+    border: 10px solid lightgray;
+    padding: 20px;
+    color: white;
+  }
+  .gray {
+    background: #ECECEC;
+    width: 200px;
+    height: 240px;
+    border: 10px solid lightgray;
+    padding: 20px;
+
+  }
+}
+
+.type {
+  h1, .avenir {
+    margin-top: 24px;
+    font-family: 'avenir', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  h3, .grande {
+    margin-top: 10px;
+    font-family: 'Lucida Grande', sans-serif;
+    font-weight: 400;
+  }
+}
+
+.ui {
+  margin-top: 80px;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.linez {
+  width: 90vw;
+}
+.elements {
+  display: flex;
+  margin-top: 60px;
+  flex-wrap: wrap;
+  h2 {
+    margin-top :60px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    text-align: right;
+  }
+  .col {
+    margin-left: 20px;
+  }
+  .ad {
+    background-image: url("../img/Styles.png");
+    height: 60px;
+    width: 210px;
+    display: block;
+    margin-bottom: 30px;
+
+  }
+  .calendar {
+    background-image: url("../img/calendar.png");
+    width: 202px;
+    height: 259px;
+    border: 5px solid lightgray;
+    margin-right: 60px;
+
+  }
+  .search {
+    background-image: url("../img/search.png");
+    width: 400px;
+    height: 50px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    background-size: cover;
+    margin-right: 30PX;
+  }
+  .cl {
+    background-image: url("../img/cl.png");
+    width: 182px;
+    height: 182px;
+    background-size: cover;
+    margin-right: 80px;
+  }
+  .case {
+    background-image: url("../img/case.png");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin-right: 50px;
+    margin-bottom: 20px
+  }
+  .house {
+    background-image: url("../img/house.png");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin-right: 30px;
+  }
+  .sale {
+    background-image: url("../img/sale.png");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .comp {
+    background-image: url("../img/comp.png");
+    width: 110px;
+    height: 100px;
+    background-size: cover;
+    margin-right: 30px;
+  }
+}
+
+.process {
+  margin-top: 120px;
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .insight {
+    width: 700px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+}
